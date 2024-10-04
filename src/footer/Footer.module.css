@@ -1,0 +1,44 @@
+footer{
+    background-color: darkorange;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.column h3 {
+    color: #ffcc00;
+}
+
+.column p {
+    margin: 0;
+}
+
+.socialLinks {
+    /* New styles for the social media icons */
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.socialLinks a {
+    /* Styles for each social media link */
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Adding transitions for color and transform */
+}
+
+.socialLinks a:hover {
+    /* Styles for the hover effect */
+    color: #ffcc00; /* Change the color on hover */
+    transform: scale(1.2); /* Zoom in by 20% on hover */
+}

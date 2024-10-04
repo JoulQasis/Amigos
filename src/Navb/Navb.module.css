@@ -1,0 +1,34 @@
+.navcollaps1 {
+    flex-grow: 0 !important;
+}
+
+.navL1 {
+    font-size: 35px !important;
+    font-weight: bold;
+    color: rgb(212, 6, 6) !important;
+    font-family: 'Allura', cursive;
+}
+
+.navbar1 {
+    background-color: darkorange !important;
+    padding: 0px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navL {
+    font-size: larger;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.navL:hover {
+    font-weight: bolder;
+    transform: scaleX(1.05);
+}
